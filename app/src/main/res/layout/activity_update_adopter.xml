@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateAdopterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:fontFamily="monospace"
+        android:text="Update Data Adopter"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="20dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <EditText
+                    android:id="@+id/up_et_nama_adopter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/border"
+                    android:hint="Masukkan Nama Adopter"
+                    android:padding="12dp" />
+
+                <EditText
+                    android:id="@+id/up_et_nohp_adopter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="Masukkan Nomor Hp Adopter"
+                    android:padding="12dp" />
+
+                <EditText
+                    android:id="@+id/up_et_email_adopter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="Masukkan Email Adopter"
+                    android:padding="12dp" />
+
+                <EditText
+                    android:id="@+id/up_et_jenisRumah_adopter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="Masukkan Jenis Tempat Tinggal"
+                    android:padding="12dp" />
+
+                <EditText
+                    android:id="@+id/up_et_alamat_adopter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="Masukkan Alamat Adopter"
+                    android:padding="12dp" />
+
+                <EditText
+                    android:id="@+id/up_et_tujuan_adopter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/border"
+                    android:hint="Masukkan Tujuan Adopter"
+                    android:inputType="textMultiLine"
+                    android:padding="12dp" />
+
+                <Button
+                    android:id="@+id/up_btn_pilihImage_adopter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Pilih Gambar KTP Adopter" />
+
+                <ImageView
+                    android:id="@+id/up_iv_tambahData_adopter"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/upload_image_btn"
+                    android:scaleType="fitCenter"/>
+
+                <Button
+                    android:id="@+id/up_btn_tambahData_adopter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Tambah Data" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

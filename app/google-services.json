@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "154672751240",
+    "firebase_url": "https://tugas-proyek-pmobile-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tugas-proyek-pmobile",
+    "storage_bucket": "tugas-proyek-pmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154672751240:android:fdff54393929eeb213f53d",
+        "android_client_info": {
+          "package_name": "com.example.projectpmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbw7y58CBJv5bQFiDQDqdZPmaoYwkApng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154672751240:android:b61e98727bcb9bb413f53d",
+        "android_client_info": {
+          "package_name": "com.example.tugasproyekpmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbw7y58CBJv5bQFiDQDqdZPmaoYwkApng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
